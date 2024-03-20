@@ -1,0 +1,54 @@
+{
+  "title": {
+    "name": "EPC一体化协同平台",
+    "simpleName": "协同平台",
+    "suffix": "中集来福士"
+  },
+  "message": {
+    "document": {
+      "noContent": "没有相关说明文件"
+    }
+  },
+  "setting": {
+    "welcome": "你好",
+    "setting": "设置",
+    "newPassword": "新的密码",
+    "confirmPassword": "重复输入密码"
+  },
+  "crud": {
+    "search": "查询",
+    "collapse": "收起",
+    "expand": "展开",
+    "reset": "重置",
+    "submit": "提交",
+    "cancel": "取消",
+    "name": "名称",
+    "date": "时间",
+    "expiration": "有效期"
+  },
+  "account": {
+    "signout": "注销",
+    "signin": "登录",
+    "signup": "注册",
+    "email": "邮箱",
+    "name": "名称",
+    "code": "验证码",
+    "password": "密码",
+    "username": "用户名",
+    "forgotPassword": "忘记密码",
+    "invalidEmail": "邮箱格式错误",
+    "invalidCode": "账号或者验证码不正确",
+    "invalidPassword": "账号或者密码不正确",
+    "alreadyHaveOne": "已经拥有账号",
+    "validatedEmail": "请输入邮箱",
+    "validatedUsername": "请输入名称",
+    "validatedPassword": "请输入密码",
+    "validatedCode": "请输入验证码"
+  },
+  "tooltip": {
+    "zoom": "缩放",
+    "notice": "消息",
+    "download": "下载",
+    "document": "文档"
+  }
+}

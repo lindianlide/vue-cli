@@ -1,0 +1,35 @@
+/* 上搜索 下表格 */
+.common-search-table {
+  .common-search {
+    position: relative;
+  }
+  .common-table {
+    position: relative;
+    margin-top: 10px;
+  }
+}
+
+/* 上搜索 下左表格 下右表格 */
+.common-search-tablelr {
+  .common-search {
+    position: relative;
+  }
+  .common-tablelr {
+    display: flex;
+    .common-tablel {
+      flex: 1;
+    }
+    .common-tabler {
+      flex: 1;
+    }
+    /* 下左表格40% 下右表格60% */
+    &.l-4 {
+      .common-tablel {
+        flex: 2;
+      }
+      .common-tabler {
+        flex: 3;
+      }
+    }
+  }
+}

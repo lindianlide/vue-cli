@@ -1,0 +1,54 @@
+{
+  "title": {
+    "name": "ee",
+    "simpleName": "ee",
+    "suffix": "CES"
+  },
+  "message": {
+    "document": {
+      "noContent": "No documentation is available"
+    }
+  },
+  "setting": {
+    "welcome": "Hi",
+    "setting": "Setting",
+    "newPassword": "New password",
+    "confirmPassword": "Confirm Password"
+  },
+  "crud": {
+    "search": "Search",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "reset": "Reset",
+    "name": "Name",
+    "date": "Date",
+    "expiration": "Expiration",
+    "collapse": "Collapse",
+    "expand": "Expand"
+  },
+  "account": {
+    "signout": "Sign out",
+    "signin": "Sign in",
+    "signup": "Sign up",
+    "email": "Email",
+    "name": "Name",
+    "code": "Code",
+    "password": "Password",
+    "username": "Usernmame",
+    "forgotPassword": "Forgot Password",
+    "invalidEmail": "Invalid email",
+    "invalidCode": "Invalid account or code",
+    "invalidPassword": "Invalid account or password",
+    "alreadyHaveOne": "Already have an account",
+    "validatedEmail": "Please input your email",
+    "validatedUsername": "Please input your username",
+    "validatedPassword": "Please input your password",
+    "validatedCode": "Please input your code"
+  },
+  "tooltip": {
+    "zoom": "Zoom",
+    "notice": "Notice",
+    "download": "Download",
+    "document": "Document"
+  }
+}
