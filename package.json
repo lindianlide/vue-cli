@@ -1,0 +1,55 @@
+{
+  "name": "vue3-vite-pc",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx, --fix --ignore-path .gitignore",
+    "format": "prettier --write src/",
+    "check": "prettier --check .",
+    "prettier": "prettier --write .",
+    "postinstall": "npx simple-git-hooks"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged",
+    "commit-msg": "node scripts/verifyCommit.js"
+  },
+  "lint-staged": {
+    "*.{js,vue}": [
+      "npm run lint",
+      "prettier --write ."
+    ]
+  },
+  "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "axios": "^1.5.0",
+    "dayjs": "^1.11.9",
+    "pinia": "^2.1.6",
+    "vant": "^4.6.6",
+    "vue": "^3.3.4",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.3.2",
+    "@vitejs/plugin-vue": "^4.3.1",
+    "@vue/eslint-config-prettier": "^8.0.0",
+    "eslint": "^8.46.0",
+    "eslint-plugin-vue": "^9.16.1",
+    "less": "^4.2.0",
+    "lint-staged": "^14.0.1",
+    "postcss": "^8.4.29",
+    "postcss-pxtorem": "^6.0.0",
+    "prettier": "^3.0.0",
+    "simple-git-hooks": "^2.9.0",
+    "vite": "^4.4.9"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}

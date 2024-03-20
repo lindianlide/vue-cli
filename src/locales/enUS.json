@@ -1,0 +1,8 @@
+{
+  "crud": {
+    "search": "Search",
+    "reset": "Reset",
+    "collapse": "Collapse",
+    "expand": "Expand"
+  }
+}

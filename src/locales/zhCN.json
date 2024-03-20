@@ -1,0 +1,8 @@
+{
+  "crud": {
+    "search": "查询",
+    "collapse": "收起",
+    "expand": "展开",
+    "reset": "重置"
+  }
+}
